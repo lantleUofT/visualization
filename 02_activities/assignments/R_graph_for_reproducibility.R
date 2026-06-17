@@ -2,6 +2,8 @@ library (ggplot2)
 library(dplyr)
 library(tidyr)
 
+
+#https://data.ontario.ca/dataset/violent-crime-rates/resource/574e4981-aeff-45bb-9794-a9ed56df5042
 df <- read.csv('/Users/levi/Documents/Documents/Graduate School Stuff/DSI certification class/DSI coding/visualization/02_activities/assignments/1314-006_violent_crime_rates_csv_2008-12.csv')
 df2 <- df %>% filter(X.1 == "Total assaults against a peace officer (25,35)")
 
