@@ -8,22 +8,38 @@
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
-
+        Rstudio
+        
     > Who is your intended audience? 
-    
+        Police officers and concerned citizens
+        
     > What information or message are you trying to convey with your visualization? 
-    
+        Per capita police officer are most at risk in Nunavut.
+        
     > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
-    
+        I considered the color scheme using red and blue to indicate the police. I
+        also defined color by year
+        
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
-    
+        I will upload the code to github in the HW repo
+        
     > How did you ensure that your data visualization is accessible?  
-    
+        I will upload the data visualization to github, and also I used the viridis
+        color scheme. I used a flat graph with minimal text to reduce cognitive load.
+        I choose a familiar scatter plot so reduce cognitive load. Lastly I included
+        text showing the overall message of the visualization at the bottom
+        
     > Who are the individuals and communities who might be impacted by your visualization?  
-    
+        Police officers living in or considering moving to nunavut as well as any other
+        police officers concerned about their on the job safety.
+        
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
-    
+        I decided to exclude all other crimes since my only focus was assaults on a peace officer
+        
     > What ‘underwater labour’ contributed to your final data visualization product?
+        The underwater labour includes everyone who gathered the data, curated it,
+        all staff involved in maintaining its host website and servers as well as
+        any caretakers for their children or relatives
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
