@@ -8,38 +8,40 @@
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
-        Rstudio
-        
+        Python (Matplotlib)
+    
     > Who is your intended audience? 
-        Police officers and concerned citizens
+        My intended audience is environmentally conscious citizens
         
     > What information or message are you trying to convey with your visualization? 
-        Per capita police officer are most at risk in Nunavut.
+        The message I am trying to convey is that despite the fact that Ontario has seen a large downturn in CO2 emissions 
+        since 2010 with the value bottoming out around 2016, we have been seeing a concerning uptick in CO2 emissions
+        since 2020, and the provincial government has yet to even release their statistics from 2024 and 2025 which means the
+        issue could be even more concerning than the statistics show
         
     > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
-        I considered the color scheme using red and blue to indicate the police. I
-        also defined color by year
+        I considered the emotional impact of the graph, as can be seen through the text at the bottom. I also tried
+        to make it on theme with climate change through green bar + label coloring. Lastly I had the red bar as a
+        'cutoff' choosing the color red to show its like a red line we shouldn't cross but already did in 2023. to reduce
+        cognitive load I choose a familiar bar graph which are easy to interpret and used minimal visual elements.
         
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
-        I will upload the code to github in the HW repo
+        Code will be uploaded to github (along with link used to download the data documented) in the HW repo.
         
     > How did you ensure that your data visualization is accessible?  
-        I will upload the data visualization to github, and also I used the viridis
-        color scheme. I used a flat graph with minimal text to reduce cognitive load.
-        I choose a familiar scatter plot so reduce cognitive load. Lastly I included
-        text showing the overall message of the visualization at the bottom
+        Colors are not relevant to interpreting the message trying to be conveyed hence no colorblind pallette was used
         
-    > Who are the individuals and communities who might be impacted by your visualization?  
-        Police officers living in or considering moving to nunavut as well as any other
-        police officers concerned about their on the job safety.
-        
+    > Who are the individuals and communities who might be impacted by your visualization?
+        The information being conveyed is relevant to everyone living in toronto as it directly concerns the air quality
+        in the city.
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
-        I decided to exclude all other crimes since my only focus was assaults on a peace officer
-        
+        I excluded everything except for year and CO2 from non-biomass. I choose to do so to focus on a
+        easily, commonly understood metric of global warming and air quality. Since I grouped by city I
+        choose not to focus on location or company as well
+
     > What ‘underwater labour’ contributed to your final data visualization product?
-        The underwater labour includes everyone who gathered the data, curated it,
-        all staff involved in maintaining its host website and servers as well as
-        any caretakers for their children or relatives
+        All the government labor who compiled the data, the IT people responsible for maintaining the government
+        website and servers the data is stored on as well as child caretakers for anyone involved in the project.
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
